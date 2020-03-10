@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*BODY STYLES*/
+
+body {
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 10px;
+	overflow-x: hidden;
+}
+
+body,
+body a {
+	color: #fff;
+}
+
+body li {
+	list-style-type: none;
+}
+
+body li a,
+body a {
+	text-decoration: none;
+}
+
+/*COMMON STYLES*/
+
+.footer {
+	height: 170vh;
+	background-color: #1a1a1a;
+
+	font-size: 1.15rem;	
+}
+
+.fuzion-logo {
+	margin-bottom: 15px;
+}
+
+.footer-logo {
+	position: absolute;
+	top: -30px;
+	left: -70px;
+
+}
+
+.fuzion-logo img {
+	height: 180px;
+}
+
+.fuzion-socmed i {
+	margin-top: 100px;
+	margin-right: 18px;
+	margin-bottom: 15px;
+	font-size: 1.3rem;
+}
+
+.fuzion-subscribe {
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 25px;
+
+}
+
+.fuzion-latest {
+	display: flex;
+	align-items: center;
+}
+
+.fuzion-latest i {
+	display: none;
+}
+
+.subscribe {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.fuzion-latest i {
+	margin-right: 5px;
+}
+
+.fuzion-latest p {
+	font-weight: bold;
+	font-size: 1.4rem;
+}
+
+.subscribe input {
+	width: 90%;
+}
+
+.subscribe a {
+	width: 78%;
+	padding: 5px 25px;
+	margin-top: 10px;
+	border-radius: 3px;
+
+	text-transform: capitalize;
+	text-align: center;
+	background-color: #c41d1d;
+}
+
+.subscribe a:hover {
+	background-color: #ff2929;
+}
+
+.links {
+	margin: 30px 0;
+	text-transform: capitalize;
+}
+
+.links li {
+	margin: 15px 0;
+}
+
+.links li:hover {
+	text-decoration: underline;
+}
+
+.support-links li:last-of-type {
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-size: 2.5rem;
+	margin: 25px 0;
+}
+
+.fuzion-socmed,
+.fuzion-subscribe,
+.links {
+	margin-left: 25px;
+}
+
+
