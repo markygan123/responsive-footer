@@ -147,4 +147,9 @@ h3 {
 	.subscribe input {
 		width: 88%;
 	}
+
+	.second li:last-of-type {
+		padding-bottom: 50px;
+		border-bottom: 1px solid #fff;
+	}
 }
