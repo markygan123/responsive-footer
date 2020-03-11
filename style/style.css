@@ -60,6 +60,8 @@ body a {
 .fuzion-subscribe {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+
 
 	margin-top: 25px;
 
@@ -136,5 +138,3 @@ h3 {
 .links {
 	margin-left: 25px;
 }
-
-
