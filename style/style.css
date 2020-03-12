@@ -157,3 +157,10 @@ h3 {
 		border-bottom: 1px solid #fff;
 	}
 }
+
+@media only screen and (max-width: 767px) {
+	.page-links {
+		display: flex;
+		justify-content: space-between;
+	}	
+}
