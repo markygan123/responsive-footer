@@ -142,10 +142,10 @@ h3 {
 }
 
 @media only screen and (max-width: 479px) {
-	/*.footer div {
+	.footer div {
 		margin-right: 20px;
 	}
-*/
+
 	.fuzion-latest p {
 		font-size: 1.8rem;
 	}
