@@ -111,6 +111,8 @@ body a {
 	background-color: #ff2929;
 }
 
+
+
 .links {
 	margin: 30px 0;
 	text-transform: capitalize;
@@ -140,16 +142,21 @@ h3 {
 }
 
 @media only screen and (max-width: 479px) {
-	.footer div {
+	/*.footer div {
 		margin-right: 20px;
 	}
-
+*/
 	.fuzion-latest p {
 		font-size: 1.8rem;
 	}
 
 	.subscribe input {
 		width: 95%;
+	}
+
+	.page-links {
+		display: flex;
+		flex-direction: column;
 	}
 
 	.second li:last-of-type {
