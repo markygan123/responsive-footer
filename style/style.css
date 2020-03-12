@@ -159,8 +159,24 @@ h3 {
 }
 
 @media only screen and (max-width: 767px) {
+	.footer div {
+		margin-right: 20px;
+	}
+
+	.subscribe input {
+		width: 100%;
+	}
+
+	.subscribe a {
+		width: 94%;
+	}
+
 	.page-links {
 		display: flex;
-		justify-content: space-between;
-	}	
+		justify-content: center;
+	}
+
+	.support-links {
+		margin-right: 35px;
+	}
 }
