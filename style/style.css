@@ -154,6 +154,10 @@ h3 {
 		width: 95%;
 	}
 
+	.subscribe a {
+		width: 85%;
+	}
+
 	.page-links {
 		display: flex;
 		flex-direction: column;
@@ -165,7 +169,7 @@ h3 {
 	}
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
 	.footer div {
 		margin-right: 20px;
 	}
